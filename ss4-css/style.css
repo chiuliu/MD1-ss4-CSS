@@ -1,0 +1,14 @@
+.paragraph{
+    text-align: center;
+    
+
+/* box Model */
+
+width: 500px;
+height: 300px;
+margin: 20px;
+padding: 5px;
+border: 10px solid black;
+box-sizing: border-box;
+
+}

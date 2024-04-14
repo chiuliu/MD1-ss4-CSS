@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang web của tôi</title>
+  </head>
+  <body>
+    <nav class="tile">
+      <ul>
+        <li><h1 style="font-size: 50px">Hotel Search</h1></li>
+        <li class="leftli"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <h2 style="text-align: center"><b>Find the Perfect Hotel for You</b></h2>
+    <div class="formHotel">
+      <form action="">
+        <label for="name">Destination</label>
+        <input type="text" id="name" name="name" required />
+        <label for="datein">Check-in</label>
+        <input type="date" id="datein" name="datein" required />
+        <label for="dateout">Check out</label>
+        <input type="date" id="dateout" name="dateout" />
+        <label for="guest">Guests</label>
+        <select name="guest" id="guest">
+          <option value="guest1">1</option>
+          <option value="guest2">2</option>
+          <option value="guest3">3</option>
+          <option value="guest4">4</option>
+        </select>
+        <button class="searchButton">Search</button>
+      </form>
+    </div>
+    <footer>
+      <p>© 2024 Hotel Search. All rights reserved</p>
+    </footer>
+  </body>
+
+  <style>
+    form {
+      margin: 20px;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .sent {
+      background-color: #0087bd;
+      color: white;
+      width: 100px;
+      height: 50px;
+    }
+    label,
+    input,
+    textarea,
+    div {
+      margin-bottom: 10px;
+    }
+    .formHotel {
+      margin-left: 30%;
+      margin-right: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    select {
+      background-color: #f2f2f2;
+      height: 40px;
+    }
+    button {
+      width: 100px;
+      margin-top: 20px;
+      background-color: black;
+      color: white;
+    }
+    .tile {
+      background-color: black;
+      color: white;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .leftli {
+      margin-left: 69%;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</html>

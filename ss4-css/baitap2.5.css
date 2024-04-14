@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(166, 161, 161);
+    padding: 30px;
+    width: 50%;
+    height: 50%;
+    margin: 150px auto;
+
+
+}
+.container{
+    background-color: rgb(148, 125, 82);
+    padding: 20px;
+}
+.register{
+    margin: 20px 0 ;
+    
+}
+h2{text-align: center;}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+button{
+    background-color: aquamarine;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: transparent;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+

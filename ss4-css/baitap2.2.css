@@ -1,0 +1,18 @@
+.container{
+    background-image: url(https://www.health.harvard.edu/media/content/images/p7_Broccoli_HH1812_gi905351392.jpg);
+    width: 1000Px;
+    height: 500px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header-text{
+    font-size: 20px;
+}
+.main-text{
+    font-size: 10px;
+}
+input{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
